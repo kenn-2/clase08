@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  border: 1px dashed #000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formulario label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.formulario select, .formulario input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #52a728;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #262188;
+}
+
+.resultado {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.resultado h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.resultado p {
+  background-color: #e9ecef;
+  padding: 10px;
+  border: 1px dashed #000;
+  border-radius: 5px;
+  color: #333;
+  margin-bottom: 10px;
+}
